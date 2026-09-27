@@ -1,0 +1,192 @@
+body {
+  margin: 0;
+  padding: 0;
+  background-color: rgb(76, 76, 76);
+  font-family: sans-serif;
+  color: white;
+}
+
+header {
+  background-color: rgb(36, 36, 36);
+  height: 120px;
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.container {
+  display: flex;
+  flex-direction: column;
+  gap: 40px;
+  width: 100%;
+}
+
+.boxe {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 30px;
+  background-image: url("Poster.png");
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-color: gray;
+  border-radius: 15px;
+  min-height: 500px;
+  width: 100%;
+}
+
+.boxe0 {
+  display: flex;
+  justify-content: center;
+  align-items: flex-start;
+  background-color: rgba(0, 0, 0, 0.85);
+  box-shadow: 0 10px 25px rgba(0, 0, 0, 0.5);
+  border-radius: 10px;
+  height: 90%;
+  width: 30%;
+  padding: 20px;
+}
+.boxe2 {
+  display: flex;
+  justify-content: center;
+  align-items: flex-start;
+  background-color: rgba(0, 0, 0, 0.85);
+  box-shadow: 0 10px 25px rgba(0, 0, 0, 0.5);
+  border-radius: 10px;
+  height: 90%;
+  width: 30%;
+  padding: 20px;
+}
+.boxe4 {
+  display: flex;
+  justify-content: center;
+  align-items: flex-start;
+  background-color: rgba(0, 0, 0, 0.85);
+  box-shadow: 0 10px 25px rgba(0, 0, 0, 0.5);
+  border-radius: 10px;
+  height: 90%;
+  width: 30%;
+  padding: 20px;
+}
+
+.boxeT1 {
+  background-color: rgb(53, 53, 53);
+  background-color: rgb(132, 132, 132);
+  cursor: pointer;
+  width: 100%;
+  font-weight: 700;
+  font-size: 20px;
+  text-decoration: none;
+  border-radius: 5px;
+  padding: 15px;
+}
+.boxeT3 {
+  background-color: rgb(43, 43, 43);
+  background-color: rgb(132, 132, 132);
+  cursor: pointer;
+  width: 100%;
+  font-weight: 700;
+  font-size: 20px;
+  text-decoration: none;
+  border-radius: 5px;
+  padding: 15px;
+}
+.boxeT5 {
+  background-color: rgb(48, 48, 48);
+  background-color: rgb(132, 132, 132);
+  cursor: pointer;
+  width: 100%;
+  font-weight: 700;
+  font-size: 20px;
+  text-decoration: none;
+  border-radius: 5px;
+  padding: 15px;
+}
+
+details p {
+  color: black;
+  font-weight: normal;
+  font-size: 16px;
+  margin-top: 15px;
+  line-height: 1.4;
+}
+
+.boxe6 {
+  background-image: url(Poster2.png);
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  background-color: rgb(36, 36, 36);
+  border-radius: 15px;
+  width: 100%;
+  min-height: 450px;
+  box-shadow: 0 10px 25px rgba(0, 0, 0, 0.3);
+}
+
+.bouton-defilant {
+  width: 500px;
+  height: 80px;
+  background-color: rgb(47, 47, 47);
+  color: white;
+  border: 2px solid rgb(85, 85, 85);
+  border-radius: 5px;
+  cursor: pointer;
+  position: relative;
+  font-size: 32px;
+  overflow: hidden;
+  white-space: nowrap;
+}
+
+.texte-marquee {
+  display: inline-block;
+  padding-left: 100%;
+  animation: defilement 8s linear infinite;
+}
+
+@keyframes defilement {
+  0% {
+    transform: translate(0, 0);
+  }
+  100% {
+    transform: translate(-100%, 0);
+  }
+}
+.footer {
+  background-color: rgb(36, 36, 36);
+  width: 100%;
+  padding: 30px 0;
+  text-align: center;
+  border-top: 3px solid rgb(203, 90, 21);
+  margin-top: 40px;
+}
+
+.footer-links {
+  display: flex;
+  justify-content: center;
+  gap: 30px;
+  margin-bottom: 15px;
+}
+
+.footer-links a {
+  color: rgb(255, 51, 0);
+  text-decoration: none;
+  font-weight: bold;
+  font-size: 16px;
+  transition: color 0.2s ease;
+}
+
+.footer-links a:hover {
+  color: white;
+}
+
+.footer p {
+  color: rgb(170, 170, 170);
+  font-size: 12px;
+  margin: 0;
+}
